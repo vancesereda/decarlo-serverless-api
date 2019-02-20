@@ -1,0 +1,6 @@
+{
+	"body": "{\"text\":\"\"}",
+    "pathParameters": {
+        "id":"test-create"
+    }
+}

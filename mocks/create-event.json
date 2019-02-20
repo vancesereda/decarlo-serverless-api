@@ -1,0 +1,32 @@
+{
+	"body": {
+		"name": "TestCreate",
+		"to": "test-create",
+		"userID": "USER-SUB-1235",
+		"className": "default",
+		"slideshow": "false",
+		"thumbnail": "false",
+		"setNumber": " ",
+		"text": "<p>decarlo</p>",
+		"section": "2016",
+		"attachments": [{
+			"file": "47_detail_1_v3.jpg",
+			"caption": "null"
+		}, {
+			"file": "47_detail_2_v3.jpg",
+			"caption": "null"
+		}, {
+			"file": "47_full_v5.jpg",
+			"caption": "null"
+		}, {
+			"file": "47_process_v5.jpg",
+			"caption": "testing"
+		}]
+	},
+	"requestContext": {
+		"identity": {
+			"cognitoIdentityId": "USER-SUB-1234"
+		}
+	}
+
+}

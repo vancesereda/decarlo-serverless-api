@@ -1,0 +1,11 @@
+{
+    "body": "{\"text\": \" \"}",
+    "pathParameters": {
+        "to": "test-create"
+    },
+    "requestContext": {
+        "identity": {
+            "cognitoIdentityId": "USER-SUB-1234"
+        }
+    }
+}
