@@ -20,6 +20,7 @@ export async function main(event, context) {
                 userID: "USER-SUB-1234",
                 name: data[i].name,
                 to: data[i].to,
+                tags: data[i].tags,
                 className: data[i].className,
                 slideshow: data[i].slideshow,
                 thumbnail: data[i].thumbnail,
