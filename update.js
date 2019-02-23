@@ -10,25 +10,27 @@ export async function main(event, context) {
         // - 'noteId': path parameter
         Key: {
             userID: "USER-SUB-1234",
-            to: event.pathParameters.to
+            to: event.pathParameters.id
         },
         // 'UpdateExpression' defines the attributes to be updated
         // 'ExpressionAttributeValues' defines the value in the update expression
-        UpdateExpression: "SET #t = :text, #n = :name, slideshow = :slideshow, thumbnail = :thumbnail, attachments = :attachments", 
+        UpdateExpression: "SET #t = :text, #n = :name, tags = :tags, slideshow = :slideshow, #s  = :section , attachments = :attachments", 
         ExpressionAttributeNames: {
             "#t": "text",
-            "#n":"name"
+            "#n":"name",
+            "#s":"section",
         },
         ExpressionAttributeValues: {
-            ":text": data.text || null,
-            ":name": data.name || null,
-            ":slideshow": data.slideshow || null,
-            ":thumbnail": data.thumbnail || null,
-            ":attachments": data.attachments || null,
+            ":text": data.text || "null",
+            ":name": data.name || "null",
+            ":tags": data.tags || [],
+            ":slideshow": data.slideshow || "false",
+            ":section": data.section || "null",
+            ":attachments": data.attachments || [],
         },
     // 'ReturnValues' specifies if and how to return the item's attributes,// where ALL_NEW returns all attributes of the item after the update; you
     // can inspect 'result' below to see how it works with different settings
-        ReturnValues: "ALL_NEW"
+        ReturnValues: "UPDATED_NEW"
     };
 
     try {
@@ -36,6 +38,6 @@ export async function main(event, context) {
         return success(result);
     } catch (e) {
         console.log(e)
-        return failure({ status: false });
+        return failure({ error: e });
     }
 }

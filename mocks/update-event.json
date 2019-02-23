@@ -1,7 +1,18 @@
 {
-    "body": "{\"text\":\"<p>boyschat</p>\"}",
+    "body": {
+		"name": "Information",
+		"to": "information",
+		"className": "default",
+		"slideshow": "false",
+		"thumbnail": "false",
+		"tags": [],
+		"setNumber": "",
+		"text": "<p>Dominic Decarlo is a Visual Designer  from San Francisco. \n      Available for freelance design and commissioned artwork.\n      </p>\n      <p>\n      This is the bio I wrote for myself:\n      </p>\n      <p>\n      I am Dominic Decarlo, a Visual Designer from San Francisco. I work to employ rational, logical, and interesting approaches when making my work. I want to fix things, I like to find solutions, whether it be my KLR650 or a branding solution for a rising startup. I propose alternatives to existing models and challenge already established ideas of art direction and branding. I strive for clear work that can stand up to criticism and speak for itself. My design method creates conceptually logical solutions to any design problem and proposes them in clear and easily understandable ways. I build work individually and in collaborative efforts, often leading teams on projects. Making connections with people through my work is one of my greatest pleasures.  My favorite color is opaque red found in water color palettes.  \n      </p>\n      <p>\n      This is the bio my friend <a href=\"https://jacobrmcadam.com/\">Jacob Mcadam</a> wrote for me:\n      </p>\n      <p>\n      My name is Dominic Decarlo. I love to eat kale and pet dogs. Sometimes I double-fist kale and dog-petting when I'm upset. When I was young Jacob told me to treat people with respect and I took that advice with a grain of salt since he wasn't a very nice man.\n      \n      As a designer I strive for utter chaos and confusion. If I can successfully disarm a person's sanity I have become their master and personal god. I would love to work with you! Please send me projects, I will do them, and you will pay me. It's a win-win situation. Much love and respect to you: my loyal fans and respected colleagues.\n      <br />\n      <br />\n      -Dominic Decarlo\n      <br />\n      ----------------------------------------\n      <br />\n     featured design user at <a href=\"https://ello.co/domdecarlo\">ello.</a>\n      <br />\n      ----------------------------------------\n      <br />\n      </a>\n       this is my <a href=\"https://www.instagram.com/domdecarlo/\">instagram.</a> \n      <br />\n      ----------------------------------------\n      <br />\n      this is my <a href=\"https://www.behance.net/domdecarlo\">behance.</a>\n      <br />\n      ----------------------------------------\n      <br />\n      this is my <a href=\"https://www.linkedin.com/in/dominicdecarlo\">linkedIn.</a>\n      <br />\n      ----------------------------------------\n      <br />\n      this is my <a href=\"https://dominicdecarlo.com/files/images/ddecarlo_resume_2018.pdf\">résumé.</a>\n      <br />\n      ----------------------------------------\n      <br />\n      <br>\n      © 2018<br>\n      <a href=\"mailto:dom@dominicdecarlo.com\">dom \"at\" dominicdecarlo \"dot\" com</a></p>\n      ",
+		"section": "Dominic Decarlo",
+		"attachments": []
+	},
     "pathParameters": {
-        "to": "test-create"
+        "to": "information"
     },
     "requestContext": {
         "identity": {
