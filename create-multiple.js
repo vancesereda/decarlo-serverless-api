@@ -27,7 +27,8 @@ export async function main(event, context) {
                 section: data[i].section,
                 setNumber: data[i].setNumber.length > 0 ? data[i].setNumber : 'null',
                 text: data[i].text.length > 0 ? data[i].text : 'null',
-                attachments: data[i].attachments
+                attachments: data[i].attachments,
+                createdAt: Date.now()
             }
         };
 

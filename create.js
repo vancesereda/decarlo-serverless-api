@@ -23,10 +23,12 @@ export async function main(event, context) {
             slideshow: data.slideshow,
             thumbnail: data.thumbnail,
             setNumber: "null",
-            text: data.text,
+            text: data.text ,
             section: data.section,
-            attachments: data.attachments,
-            name: data.name
+            attachments: data.attachments ? data.attachments : [],
+            name: data.name,
+            tags: data.tags ? data.tags : [],
+            createdAt: Date.now()
         }
     };
 

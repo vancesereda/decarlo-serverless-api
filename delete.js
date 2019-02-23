@@ -7,8 +7,8 @@ export async function main(event, context) {
     // - 'userId': Identity Pool identity id of the authenticated user
     // - 'noteId': path parameter
         Key: {
-            userID: event.requestContext.identity.cognitoIdentityId,
-            to: event.pathParameters.to
+            userID: "USER-SUB-1234",
+            to: event.pathParameters.id
         }
     };
     try {
@@ -16,6 +16,6 @@ export async function main(event, context) {
         return success({ status: true });   
     } catch (e) {
         console.log(e)
-        return failure({ status: false });  
+        return failure({ error: e });  
     }
 }
