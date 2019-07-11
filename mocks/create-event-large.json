@@ -23,7 +23,7 @@
 		"attachments": []
 	}, {
 		"name": "Portfolio",
-		"to": "https://dominicdecarlo.com/files/images/DominicDecarlo_Portfolio_2018.pdf#zoom=50",
+		"to": "https://s3.amazonaws.com/www.domdecarlo.com2/portfolio.pdf",
 		"className": "default",
 		"slideshow": "false",
 		"thumbnail": "false",
